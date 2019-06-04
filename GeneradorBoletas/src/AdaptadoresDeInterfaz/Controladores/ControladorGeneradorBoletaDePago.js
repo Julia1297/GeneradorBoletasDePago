@@ -12,8 +12,8 @@ var ObtenerEmpleadosInteractor = require("../../ReglasDeNegocioAplicacion/CasosD
 var GenerarBoletasInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor").GenerarBoletasInteractor;
 var ObtenerBoletasInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/ObtenerBoletasInteractor").ObtenerBoletasInteractor;
 
-var PresentadorGenerarBoletas = require("../Presentadores/PresentadorGenerarBoletas").PresentadorGenerarBoletas;
-var PresentadorObtenerBoletas = require("../Presentadores/PresentadorObtenerBoletas").PresentadorObtenerBoletas;
+var PresentadorGenerarBoletas = require("../Presentadores/PresentadoresBoleta/PresentadorGenerarBoletas").PresentadorGenerarBoletas;
+var PresentadorObtenerBoletas = require("../Presentadores/PresentadoresBoleta/PresentadorObtenerBoletas").PresentadorObtenerBoletas;
 
 const presentadorGenerarBoletas = new PresentadorGenerarBoletas();
 const presentadorObtenerBoletas = new PresentadorObtenerBoletas();

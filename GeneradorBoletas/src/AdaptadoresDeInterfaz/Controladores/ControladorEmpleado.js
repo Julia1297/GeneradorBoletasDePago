@@ -14,11 +14,11 @@ var GenerarEmpleadoJSONInteractor = require("../../ReglasDeNegocioAplicacion/Cas
 
 var PeticionModeloEmpleado = require("../ModeloDePeticion/ModeloDePeticionEmpleado").PeticionModeloEmpleado;
 
-var PresentadorCrearEmpleado = require("../Presentadores/PresentadorCrearEmpleado").PresentadorCrearEmpleado;
-var PresentadorObtenerEmpleados = require("../Presentadores/PresentadorObtenerEmpleados").PresentadorObtenerEmpleados;
-var PresentadorObtenerUnEmpleado = require("../Presentadores/PresentadorObtenerUnEmpleado").PresentadorObtenerUnEmpleado;
-var PresentadorEliminarEmpleado = require("../Presentadores/PresentadorEliminarEmpleado").PresentadorEliminarEmpleado;
-var PresentadorGenerarEmpleadoJSON = require("../Presentadores/PresentadorGenerarEmpleadoJSON").PresentadorGenerarEmpleadoJSON;
+var PresentadorCrearEmpleado = require("../Presentadores/PresentadoresEmpleado/PresentadorCrearEmpleado").PresentadorCrearEmpleado;
+var PresentadorObtenerEmpleados = require("../Presentadores/PresentadoresEmpleado/PresentadorObtenerEmpleados").PresentadorObtenerEmpleados;
+var PresentadorObtenerUnEmpleado = require("../Presentadores/PresentadoresEmpleado/PresentadorObtenerUnEmpleado").PresentadorObtenerUnEmpleado;
+var PresentadorEliminarEmpleado = require("../Presentadores/PresentadoresEmpleado/PresentadorEliminarEmpleado").PresentadorEliminarEmpleado;
+var PresentadorGenerarEmpleadoJSON = require("../Presentadores/PresentadoresEmpleado/PresentadorGenerarEmpleadoJSON").PresentadorGenerarEmpleadoJSON;
 
 const repositorio = new InterfazRepositorioEmpleado(new PersistenciaEmpleadoJSON());
 
