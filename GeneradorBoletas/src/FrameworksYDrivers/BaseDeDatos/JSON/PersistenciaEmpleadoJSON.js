@@ -6,7 +6,6 @@ function cargarDatos(){
 }
 class  PersistenciaEmpleadoJSON{ 
     constructor(persitencia) {
-        this.persitencia = persitencia;
         this.listaEmpleados = cargarDatos();
     }
     insertarEmpleado(empleado){
@@ -39,6 +38,7 @@ class  PersistenciaEmpleadoJSON{
     }
     generarJSON() {
         var listaDeEmpleadosJSON = JSON.stringify(this.listaEmpleados);
+        console.log(listaDeEmpleadosJSON);
         fs.writeFile('../../FrameworksYDrivers/BaseDeDatos/JSON/empleados.json', listaDeEmpleadosJSON, (error) => {
             if (error) throw error
         });

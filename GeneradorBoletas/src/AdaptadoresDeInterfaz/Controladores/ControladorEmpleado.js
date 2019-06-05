@@ -9,7 +9,6 @@ var CrearEmpleadoInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUs
 var ObtenerEmpleadosInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/ObtenerEmpleadosInteractor").ObtenerEmpleadosInteractor;
 var ObtenerUnEmpleadoInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/ObtenerUnEmpleadoInteractor").ObtenerUnEmpleadoInteractor;
 var EliminarEmpleadoInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/EliminarEmpleadoInteractor").EliminarEmpleadoInteractor;
-var EliminarEmpleadoInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/EliminarEmpleadoInteractor").EliminarEmpleadoInteractor;
 var GenerarEmpleadoJSONInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/GenerarEmpleadoJSONInteractor").GenerarEmpleadoJSONInteractor;
 
 var PeticionModeloEmpleado = require("../ModeloDePeticion/ModeloDePeticionEmpleado").PeticionModeloEmpleado;

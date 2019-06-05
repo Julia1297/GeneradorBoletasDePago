@@ -8,7 +8,6 @@ var PersistenciaEmpleadoJSON = require("../../FrameworksYDrivers/BaseDeDatos/JSO
 var InterfazRepositorioBoleta = require("../Almacenamiento/db/InterfazRepositorioBoleta").InterfazRepositorioBoleta;
 var PersistenciaBoletaJSON = require("../../FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON").PersistenciaBoletaJSON;
 
-var ObtenerEmpleadosInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/ObtenerEmpleadosInteractor").ObtenerEmpleadosInteractor;
 var GenerarBoletasInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor").GenerarBoletasInteractor;
 var ObtenerBoletasInteractor = require("../../ReglasDeNegocioAplicacion/CasosDeUso/ObtenerBoletasInteractor").ObtenerBoletasInteractor;
 
@@ -36,9 +35,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(__dirname+'/site'));
 
 app.get('/generarboletasdepagos',function(peticion,respuesta){
-    const obtenerEmpleadosInteractor = new ObtenerEmpleadosInteractor(repositorioEmpleado);
-    let respuestaInteractorEmpleados =  obtenerEmpleadosInteractor.obtenerEmpleados();
-    const generarBoletasInteractor = new GenerarBoletasInteractor(repositorioBoleta, respuestaInteractorEmpleados);
+    const generarBoletasInteractor = new GenerarBoletasInteractor(repositorioBoleta, new InterfazRepositorioEmpleado(new PersistenciaEmpleadoJSON()));
     let respuestaInteractorGenerarBoletas =  generarBoletasInteractor.generarBoleta();
     let presentadorRespuesta =  presentadorGenerarBoletas.obtenerRespuesta(respuestaInteractorGenerarBoletas);
     respuesta.send(presentadorRespuesta);

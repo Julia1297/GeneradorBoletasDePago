@@ -1,14 +1,14 @@
 var GeneradorBoletasDePago = require("../../ReglasDeNegocioEmpresa/GeneradorBoletas/GeneradorBoletasPago").GeneradorBoletasDePago;
 class GenerarBoletasInteractor {
-    constructor(repositorio, listaEmpleados) {
-        this.repositorio = repositorio;
-        this.listaEmpleados = listaEmpleados;
+    constructor(repositorioBoleta, repositorioEmpleado) {
+        this.repositorioBoleta = repositorioBoleta;
+        this.listaEmpleados =  repositorioEmpleado.obtenerEmpleados();
     }
     generarBoleta()
     {
         var generadorBoletasDePago = new GeneradorBoletasDePago(this.listaEmpleados);
         var listaDeBoletas = generadorBoletasDePago.generarBoletasDePagoParaTodosLosEmpleados();
-        return  this.repositorio.generarBoleta(listaDeBoletas);
+        return  this.repositorioBoleta.generarBoleta(listaDeBoletas);
     }
 }
 

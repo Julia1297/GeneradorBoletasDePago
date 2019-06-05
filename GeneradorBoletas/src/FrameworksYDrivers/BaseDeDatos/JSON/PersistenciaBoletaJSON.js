@@ -6,12 +6,16 @@ function cargarDatos(){
 }
 class  PersistenciaBoletaJSON{ 
     constructor(persitencia) {
-        this.persitencia = persitencia;
         this.listaBoletas = cargarDatos();
     }
     generarBoleta(listaBoletas) {
         this.listaBoletas = listaBoletas;
         return this.generarJSON();
+    }
+
+    obtenerBoletas() {
+        this.listaBoletas = cargarDatos();
+        return this.listaBoletas;
     }
     generarJSON() {
         var listaBoletasJSON = JSON.stringify(this.listaBoletas);
@@ -19,10 +23,6 @@ class  PersistenciaBoletaJSON{
             if (error) throw error
         });
         return "Ok";
-    }
-    obtenerBoletas() {
-        this.listaBoletas = cargarDatos();
-        return this.listaBoletas;
     }
 }
 module.exports = { PersistenciaBoletaJSON };
