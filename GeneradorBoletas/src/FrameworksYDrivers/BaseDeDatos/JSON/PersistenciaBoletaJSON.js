@@ -5,7 +5,7 @@ function cargarDatos(){
     return obj;
 }
 class  PersistenciaBoletaJSON{ 
-    constructor(persitencia) {
+    constructor() {
         this.listaBoletas = cargarDatos();
     }
     generarBoleta(listaBoletas) {

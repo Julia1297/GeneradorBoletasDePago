@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2572a95a-f654-462b-b4e7-3657ebb74787" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/ModeloDeRespuesta/ModeloDeRespuestaEmpleado.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/ModeloDeRespuesta/ModeloDeRespuestaEmpleado.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresEmpleado/PresentadorObtenerEmpleados.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresEmpleado/PresentadorObtenerEmpleados.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/boletas.json" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/boletas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/empleados.json" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/empleados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,24 +17,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/ModeloDeRespuesta/ModeloDeRespuestaEmpleado.js">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+            <state relative-caret-position="298">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresBoleta/PresentadorGenerarBoletas.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresBoleta/PresentadorObtenerBoletas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="39" column="83" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="83" />
+            <state relative-caret-position="276">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -61,33 +58,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="50" column="24" selection-start-line="50" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresEmpleado/PresentadorObtenerEmpleados.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/empleados.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1029" selection-start-column="1029" selection-end-column="1029" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/boletas.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -99,17 +69,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="161">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Almacenamiento/db/InterfazRepositorioEmpleado.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="905">
+              <caret line="50" column="24" selection-start-line="50" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -161,10 +145,11 @@
         <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js" />
         <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/ModeloDeRespuesta/ModeloDeRespuestaEmpleado.js" />
         <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresEmpleado/PresentadorObtenerEmpleados.js" />
-        <option value="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js" />
-        <option value="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js" />
-        <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js" />
         <option value="$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor.js" />
+        <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js" />
+        <option value="$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresBoleta/PresentadorObtenerBoletas.js" />
+        <option value="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js" />
+        <option value="$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js" />
       </list>
     </option>
   </component>
@@ -210,7 +195,16 @@
               <item name="GeneradorBoletas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AdaptadoresDeInterfaz" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladores" type="462c0819:PsiDirectoryNode" />
+              <item name="Presentadores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generador-boleta-de-pago-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generador-boleta-de-pago-react" type="462c0819:PsiDirectoryNode" />
+              <item name="GeneradorBoletas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AdaptadoresDeInterfaz" type="462c0819:PsiDirectoryNode" />
+              <item name="Presentadores" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentadoresBoleta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generador-boleta-de-pago-react" type="b2602c69:ProjectViewProjectNode" />
@@ -306,16 +300,15 @@
       <workItem from="1559654083955" duration="1913000" />
       <workItem from="1559660664277" duration="1408000" />
       <workItem from="1559702338778" duration="644000" />
-      <workItem from="1559728142978" duration="2548000" />
+      <workItem from="1559728142978" duration="2988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33143000" />
+    <option name="totallyTimeSpent" value="33583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25818452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -367,9 +360,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backend/src/ReglasDeNegocioEmpresa/GeneradorBoletas/GeneradorBoletasPago.js" />
-    <entry file="file://$PROJECT_DIR$/Backend/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/Backend/.jshintrc" />
     <entry file="file://$PROJECT_DIR$/Backend/src/ReglasDeNegocioEmpresa/FactoryCrearEmpleado/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/Backend/src/ReglasDeNegocioEmpresa/FactoryCrearEmpleado/EmpleadoFactory" />
     <entry file="file://$PROJECT_DIR$/Backend/src/ReglasDeNegocioEmpresa/FactoryCrearEmpleado/EmpleadoParcial.js" />
@@ -424,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="50" column="24" selection-start-line="50" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/ModeloDeRespuesta/ModeloDeRespuestaEmpleado.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -442,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -466,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/ObtenerEmpleadosInteractor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -480,17 +449,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="39" column="83" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/ReglasDeNegocioAplicacion/CasosDeUso/GenerarBoletasInteractor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorGeneradorBoletaDePago.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresBoleta/PresentadorGenerarBoletas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Presentadores/PresentadoresBoleta/PresentadorObtenerBoletas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Almacenamiento/db/InterfazRepositorioEmpleado.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/AdaptadoresDeInterfaz/Controladores/ControladorEmpleado.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="50" column="24" selection-start-line="50" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaBoletaJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneradorBoletas/src/FrameworksYDrivers/BaseDeDatos/JSON/PersistenciaEmpleadoJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
